@@ -1,0 +1,23 @@
+name: gully_cricket_stats
+description: A cricket stats app for PDF scorecard parsing.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+  file_picker: ^6.1.1
+  pdf_text: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
